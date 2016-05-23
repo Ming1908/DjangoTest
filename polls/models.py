@@ -11,7 +11,7 @@ class Question(models.Model):
     
     question_text = models.CharField(max_length=200)
     
-    pub_data = models.DateTimeField('data published')
+    pub_date = models.DateTimeField('data published')
 
 
 class Choice(models.Model):
